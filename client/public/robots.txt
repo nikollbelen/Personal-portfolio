@@ -1,4 +1,4 @@
-# robots.txt for https://niladri1.vercel.app/
+# robots.txt for https://nikoll.vercel.app/
 
 User-agent: *
 Allow: /
@@ -25,4 +25,4 @@ Allow: /manifest.json
 Allow: /og-image.png
 Allow: /favicon.ico
 
-Sitemap: https://niladri1.vercel.app/sitemap.xml
+Sitemap: https://nikoll.vercel.app/sitemap.xml

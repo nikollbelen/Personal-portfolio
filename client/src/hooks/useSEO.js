@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-const BASE_URL = "https://nikoll-bonilla.vercel.app";
+const BASE_URL = "https://nikoll.vercel.app";
+
 
 const PAGE_META = {
   "/": {
