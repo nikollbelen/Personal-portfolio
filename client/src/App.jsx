@@ -16,6 +16,7 @@ const Education = lazy(() => import("./pages/Education"));
 const Experience = lazy(() => import("./pages/Experience"));
 const Skills = lazy(() => import("./pages/Skills"));
 const Projects = lazy(() => import("./pages/Projects"));
+const ProjectDetail = lazy(() => import("./pages/ProjectDetail"));
 const Certificates = lazy(() => import("./pages/Certificates"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
@@ -38,6 +39,7 @@ function AppLayout() {
               <Route path="/experience" element={<Experience />} />
               <Route path="/skills" element={<Skills />} />
               <Route path="/projects" element={<Projects />} />
+              <Route path="/projects/:slug" element={<ProjectDetail />} />
               <Route path="/certificates" element={<Certificates />} />
               <Route path="*" element={<NotFound />} />
             </Routes>

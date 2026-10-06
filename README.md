@@ -35,7 +35,7 @@ Personal-portfolio/
     │   ├── config/       # Traducciones (i18n), datos de búsqueda, info de contacto
     │   ├── context/      # LanguageContext (Manejo del estado de idioma)
     │   ├── hooks/        # Hooks personalizados como useSEO
-    │   ├── pages/        # Home, About, Education, Experience, Skills, Certificates (Projects oculto)
+    │   ├── pages/        # Home, About, Education, Experience, Skills, Projects, Certificates
     │   └── utils/        # Funciones helper
     └── public/
 ```
@@ -52,7 +52,7 @@ Personal-portfolio/
 | `/experience` | Experiencia (Experience) |
 | `/skills` | Habilidades (Skills) |
 | `/certificates` | Certificados (Certificates) |
-| `/projects` | Proyectos (Projects) *(Oculto en navegación, pero funcional)* |
+| `/projects` | Proyectos (Projects) |
 
 ---
 
