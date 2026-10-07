@@ -2,8 +2,16 @@ import { ScrollAnimation } from "@/components/ScrollAnimation";
 import { projectMedia } from "@/config/projectMedia";
 import { t } from "@/config/translations";
 import { useLang } from "@/context/LanguageContext";
-import { ArrowLeft, CheckCircle2, ExternalLink, Github, Layers } from "lucide-react";
-import { useState } from "react";
+import {
+  ArrowLeft,
+  CheckCircle2,
+  ExternalLink,
+  Github,
+  Image,
+  Layers,
+  X,
+} from "lucide-react";
+import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
 const getProjectMedia = (project) => projectMedia[project.slug]?.media ?? [];
@@ -32,8 +40,30 @@ const ProjectDetail = () => {
   const project = tx.items.find((item) => item.slug === slug && !item.hidden);
   const media = project ? getProjectMedia(project) : [];
   const [selectedMediaId, setSelectedMediaId] = useState(media[0]?.id);
+  const [isPosterOpen, setIsPosterOpen] = useState(false);
   const selectedMedia =
     media.find((item) => item.id === selectedMediaId) ?? media[0];
+  const posterMedia = media.find((item) => item.id === "webar-poster");
+
+  useEffect(() => {
+    if (!isPosterOpen) return undefined;
+
+    const handleKeyDown = (event) => {
+      if (event.key === "Escape") {
+        setIsPosterOpen(false);
+      }
+    };
+
+    const previousOverflow = document.body.style.overflow;
+
+    document.addEventListener("keydown", handleKeyDown);
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown);
+      document.body.style.overflow = previousOverflow;
+    };
+  }, [isPosterOpen]);
 
   if (!project) {
     return (
@@ -143,6 +173,16 @@ const ProjectDetail = () => {
               <p className="mt-2 text-sm leading-relaxed text-gray-300">
                 {tx.arNoticeDescription}
               </p>
+              {posterMedia && (
+                <button
+                  type="button"
+                  onClick={() => setIsPosterOpen(true)}
+                  className="mt-4 inline-flex items-center gap-2 rounded-full border border-purple-300/40 bg-purple-300/15 px-5 py-3 text-sm font-medium text-purple-50 transition-colors hover:border-purple-200/70 hover:bg-purple-300/25"
+                >
+                  {tx.viewPosterButton}
+                  <Image className="h-4 w-4" aria-hidden="true" />
+                </button>
+              )}
             </div>
           )}
 
@@ -289,6 +329,31 @@ const ProjectDetail = () => {
           </div>
         )}
       </ScrollAnimation>
+
+      {isPosterOpen && posterMedia && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/95 p-4 sm:p-6"
+          role="dialog"
+          aria-modal="true"
+          aria-label={tx.posterModalLabel}
+          onClick={() => setIsPosterOpen(false)}
+        >
+          <button
+            type="button"
+            onClick={() => setIsPosterOpen(false)}
+            className="absolute right-4 top-4 inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/10 text-white transition-colors hover:bg-white/20 sm:right-6 sm:top-6"
+            aria-label={tx.closePosterButton}
+          >
+            <X className="h-5 w-5" aria-hidden="true" />
+          </button>
+          <img
+            src={posterMedia.src}
+            alt={posterMedia.title?.[lang] ?? tx.posterModalLabel}
+            className="max-h-full max-w-full object-contain"
+            onClick={(event) => event.stopPropagation()}
+          />
+        </div>
+      )}
     </div>
   );
 };

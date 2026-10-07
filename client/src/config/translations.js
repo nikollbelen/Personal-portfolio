@@ -551,6 +551,9 @@ export const t = {
       arNoticeTitle: "Recomendación para probar la experiencia AR",
       arNoticeDescription:
         "Abre este proyecto desde un celular, permite el acceso a la cámara y enfoca el póster marcador incluido en la galería para activar la experiencia de realidad aumentada.",
+      viewPosterButton: "Ver póster",
+      posterModalLabel: "Póster marcador en pantalla completa",
+      closePosterButton: "Cerrar póster",
       projectLink: "Ver proyecto",
       repositoryLink: "Repositorio",
       items: [
@@ -743,6 +746,9 @@ export const t = {
       arNoticeTitle: "Recommendation for testing the AR experience",
       arNoticeDescription:
         "Open this project from a mobile phone, allow camera access, and point the camera at the marker poster included in the gallery to activate the augmented reality experience.",
+      viewPosterButton: "View poster",
+      posterModalLabel: "Marker poster in full screen",
+      closePosterButton: "Close poster",
       projectLink: "View project",
       repositoryLink: "Repository",
       items: [
