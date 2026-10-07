@@ -1,6 +1,6 @@
 import { ScrollAnimation } from "@/components/ScrollAnimation";
 import { projectMedia } from "@/config/projectMedia";
-import { ArrowRight, Layers } from "lucide-react";
+import { ArrowRight, Github, Layers } from "lucide-react";
 import { t } from "@/config/translations";
 import { useLang } from "@/context/LanguageContext";
 import { Link } from "react-router-dom";
@@ -75,13 +75,26 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-                <Link
-                  to={`/projects/${project.slug}`}
-                  className="mt-6 inline-flex w-fit items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-medium text-black transition-colors hover:bg-gray-100"
-                >
-                  {tx.detailsButton}
-                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
-                </Link>
+                <div className="mt-6 flex flex-wrap gap-3">
+                  <Link
+                    to={`/projects/${project.slug}`}
+                    className="inline-flex w-fit items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-medium text-black transition-colors hover:bg-gray-100"
+                  >
+                    {tx.detailsButton}
+                    <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                  </Link>
+                  {project.repositoryUrl && (
+                    <a
+                      href={project.repositoryUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex w-fit items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm font-medium text-white transition-colors hover:border-white/30 hover:bg-white/10"
+                    >
+                      {tx.repositoryLink}
+                      <Github className="h-4 w-4" aria-hidden="true" />
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
           </ScrollAnimation>

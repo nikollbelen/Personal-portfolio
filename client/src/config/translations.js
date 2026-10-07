@@ -552,6 +552,7 @@ export const t = {
       arNoticeDescription:
         "Abre este proyecto desde un celular, permite el acceso a la cámara y enfoca el póster marcador incluido en la galería para activar la experiencia de realidad aumentada.",
       projectLink: "Ver proyecto",
+      repositoryLink: "Repositorio",
       items: [
         {
           id: 1,
@@ -577,6 +578,7 @@ export const t = {
           ],
           technologies: ["React 19", "TypeScript", "Vite", "CesiumJS", "Cesium Ion", "GeoJSON", "OpenRouteService", "jsPDF", "date-fns", "CSS", "Material Symbols"],
           projectUrl: "https://com-mapvisor-app.vercel.app",
+          repositoryUrl: "https://github.com/nikollbelen",
           tags: ["React 19", "TypeScript", "CesiumJS", "GeoJSON", "jsPDF"],
         },
         {
@@ -601,6 +603,7 @@ export const t = {
           ],
           technologies: ["Vite", "TypeScript", "Tailwind CSS v4", "CesiumJS", "OpenStreetMap", "Material Symbols", "HTML", "CSS"],
           projectUrl: "https://com-entradalibre-app.vercel.app",
+          repositoryUrl: "https://github.com/nikollbelen",
           tags: ["Vite", "TypeScript", "CesiumJS", "OpenStreetMap", "Tailwind CSS"],
         },
         {
@@ -625,6 +628,7 @@ export const t = {
           ],
           technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Supabase", "PostgreSQL", "Supabase Auth", "RLS", "TanStack Query", "Zustand", "Zod", "Mapbox GL", "react-map-gl", "Vitest", "Vercel"],
           projectUrl: "https://com-concurso-app.vercel.app",
+          repositoryUrl: "https://github.com/nikollbelen",
           demoAccess: [
             { role: "Alumno", user: "alumno_demo", pin: "1234" },
             { role: "Docente", user: "docente_demo", pin: "1234" },
@@ -661,6 +665,7 @@ export const t = {
             { label: "Corazón", url: "https://com-corazon-app.vercel.app/" },
             { label: "Motor Eléctrico", url: "https://com-motor-electrico-app.vercel.app/" },
           ],
+          repositoryUrl: "https://github.com/nikollbelen",
           tags: ["Verge3D", "WebGL", "Supabase", "WebRTC", "ElevenLabs"],
         },
         {
@@ -684,6 +689,7 @@ export const t = {
           ],
           technologies: ["HTML", "CSS", "JavaScript", "A-Frame", "MindAR", "WebAR", "WebGL", "GLB", "MP4"],
           projectUrl: "https://com-edificio-ar.vercel.app/",
+          repositoryUrl: "https://github.com/nikollbelen",
           arNotice: true,
           tags: ["WebAR", "MindAR", "A-Frame", "WebGL", "JavaScript"],
         },
@@ -710,6 +716,7 @@ export const t = {
           ],
           technologies: ["Flutter", "Dart", "Supabase", "Supabase Auth", "PostgreSQL", "Provider", "fl_chart", "Material 3", "Vercel"],
           projectUrl: "https://github.com/nikollbelen",
+          repositoryUrl: "https://github.com/nikollbelen",
           tags: ["Flutter", "Dart", "Supabase", "PostgreSQL", "Material 3"],
         },
       ],
@@ -737,6 +744,7 @@ export const t = {
       arNoticeDescription:
         "Open this project from a mobile phone, allow camera access, and point the camera at the marker poster included in the gallery to activate the augmented reality experience.",
       projectLink: "View project",
+      repositoryLink: "Repository",
       items: [
         {
           id: 1,
@@ -762,6 +770,7 @@ export const t = {
           ],
           technologies: ["React 19", "TypeScript", "Vite", "CesiumJS", "Cesium Ion", "GeoJSON", "OpenRouteService", "jsPDF", "date-fns", "CSS", "Material Symbols"],
           projectUrl: "https://com-mapvisor-app.vercel.app",
+          repositoryUrl: "https://github.com/nikollbelen",
           tags: ["React 19", "TypeScript", "CesiumJS", "GeoJSON", "jsPDF"],
         },
         {
@@ -786,6 +795,7 @@ export const t = {
           ],
           technologies: ["Vite", "TypeScript", "Tailwind CSS v4", "CesiumJS", "OpenStreetMap", "Material Symbols", "HTML", "CSS"],
           projectUrl: "https://com-entradalibre-app.vercel.app",
+          repositoryUrl: "https://github.com/nikollbelen",
           tags: ["Vite", "TypeScript", "CesiumJS", "OpenStreetMap", "Tailwind CSS"],
         },
         {
@@ -810,6 +820,7 @@ export const t = {
           ],
           technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Supabase", "PostgreSQL", "Supabase Auth", "RLS", "TanStack Query", "Zustand", "Zod", "Mapbox GL", "react-map-gl", "Vitest", "Vercel"],
           projectUrl: "https://com-concurso-app.vercel.app",
+          repositoryUrl: "https://github.com/nikollbelen",
           demoAccess: [
             { role: "Student", user: "alumno_demo", pin: "1234" },
             { role: "Teacher", user: "docente_demo", pin: "1234" },
@@ -846,6 +857,7 @@ export const t = {
             { label: "Heart Studio", url: "https://com-corazon-app.vercel.app/" },
             { label: "Electric Motor", url: "https://com-motor-electrico-app.vercel.app/" },
           ],
+          repositoryUrl: "https://github.com/nikollbelen",
           tags: ["Verge3D", "WebGL", "Supabase", "WebRTC", "ElevenLabs"],
         },
         {
@@ -869,6 +881,7 @@ export const t = {
           ],
           technologies: ["HTML", "CSS", "JavaScript", "A-Frame", "MindAR", "WebAR", "WebGL", "GLB", "MP4"],
           projectUrl: "https://com-edificio-ar.vercel.app/",
+          repositoryUrl: "https://github.com/nikollbelen",
           arNotice: true,
           tags: ["WebAR", "MindAR", "A-Frame", "WebGL", "JavaScript"],
         },
@@ -895,6 +908,7 @@ export const t = {
           ],
           technologies: ["Flutter", "Dart", "Supabase", "Supabase Auth", "PostgreSQL", "Provider", "fl_chart", "Material 3", "Vercel"],
           projectUrl: "https://github.com/nikollbelen",
+          repositoryUrl: "https://github.com/nikollbelen",
           tags: ["Flutter", "Dart", "Supabase", "PostgreSQL", "Material 3"],
         },
       ],

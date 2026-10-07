@@ -2,7 +2,7 @@ import { ScrollAnimation } from "@/components/ScrollAnimation";
 import { projectMedia } from "@/config/projectMedia";
 import { t } from "@/config/translations";
 import { useLang } from "@/context/LanguageContext";
-import { ArrowLeft, CheckCircle2, ExternalLink, Layers } from "lucide-react";
+import { ArrowLeft, CheckCircle2, ExternalLink, Github, Layers } from "lucide-react";
 import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
@@ -161,6 +161,17 @@ const ProjectDetail = () => {
                 <ExternalLink className="h-4 w-4" aria-hidden="true" />
               </a>
             ))}
+            {project.repositoryUrl && (
+              <a
+                href={project.repositoryUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-5 py-3 text-sm font-medium text-white transition-colors hover:border-white/30 hover:bg-white/10"
+              >
+                {tx.repositoryLink}
+                <Github className="h-4 w-4" aria-hidden="true" />
+              </a>
+            )}
           </div>
         </ScrollAnimation>
       </div>
