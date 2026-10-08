@@ -201,17 +201,24 @@ const ProjectDetail = () => {
                 <ExternalLink className="h-4 w-4" aria-hidden="true" />
               </a>
             ))}
-            {project.repositoryUrl && (
+            {(project.repositoryLinks ?? [
+              project.repositoryUrl
+                ? { label: tx.repositoryLink, url: project.repositoryUrl }
+                : null,
+            ])
+              .filter(Boolean)
+              .map((link) => (
               <a
-                href={project.repositoryUrl}
+                key={link.url}
+                href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-5 py-3 text-sm font-medium text-white transition-colors hover:border-white/30 hover:bg-white/10"
               >
-                {tx.repositoryLink}
+                {link.label}
                 <Github className="h-4 w-4" aria-hidden="true" />
               </a>
-            )}
+            ))}
           </div>
         </ScrollAnimation>
       </div>

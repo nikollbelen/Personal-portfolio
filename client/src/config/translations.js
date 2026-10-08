@@ -581,7 +581,7 @@ export const t = {
           ],
           technologies: ["React 19", "TypeScript", "Vite", "CesiumJS", "Cesium Ion", "GeoJSON", "OpenRouteService", "jsPDF", "date-fns", "CSS", "Material Symbols"],
           projectUrl: "https://com-mapvisor-app.vercel.app",
-          repositoryUrl: "https://github.com/nikollbelen",
+          repositoryUrl: "https://github.com/nikollbelen/com_mapvisor_app",
           tags: ["React 19", "TypeScript", "CesiumJS", "GeoJSON", "jsPDF"],
         },
         {
@@ -606,7 +606,7 @@ export const t = {
           ],
           technologies: ["Vite", "TypeScript", "Tailwind CSS v4", "CesiumJS", "OpenStreetMap", "Material Symbols", "HTML", "CSS"],
           projectUrl: "https://com-entradalibre-app.vercel.app",
-          repositoryUrl: "https://github.com/nikollbelen",
+          repositoryUrl: "https://github.com/nikollbelen/com_entradalibre_app",
           tags: ["Vite", "TypeScript", "CesiumJS", "OpenStreetMap", "Tailwind CSS"],
         },
         {
@@ -631,7 +631,7 @@ export const t = {
           ],
           technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Supabase", "PostgreSQL", "Supabase Auth", "RLS", "TanStack Query", "Zustand", "Zod", "Mapbox GL", "react-map-gl", "Vitest", "Vercel"],
           projectUrl: "https://com-concurso-app.vercel.app",
-          repositoryUrl: "https://github.com/nikollbelen",
+          repositoryUrl: "https://github.com/nikollbelen/com_concurso_app",
           demoAccess: [
             { role: "Alumno", user: "alumno_demo", pin: "1234" },
             { role: "Docente", user: "docente_demo", pin: "1234" },
@@ -668,7 +668,11 @@ export const t = {
             { label: "Corazón", url: "https://com-corazon-app.vercel.app/" },
             { label: "Motor Eléctrico", url: "https://com-motor-electrico-app.vercel.app/" },
           ],
-          repositoryUrl: "https://github.com/nikollbelen",
+          repositoryLinks: [
+            { label: "Repo Molino SAG", url: "https://github.com/nikollbelen/com_laboratorio_app" },
+            { label: "Repo Corazón", url: "https://github.com/nikollbelen/com_corazon_app" },
+            { label: "Repo Motor", url: "https://github.com/nikollbelen/com_motor_electrico_app" },
+          ],
           tags: ["Verge3D", "WebGL", "Supabase", "WebRTC", "ElevenLabs"],
         },
         {
@@ -692,7 +696,7 @@ export const t = {
           ],
           technologies: ["HTML", "CSS", "JavaScript", "A-Frame", "MindAR", "WebAR", "WebGL", "GLB", "MP4"],
           projectUrl: "https://com-edificio-ar.vercel.app/",
-          repositoryUrl: "https://github.com/nikollbelen",
+          repositoryUrl: "https://github.com/nikollbelen/com_avatar_ar",
           arNotice: true,
           tags: ["WebAR", "MindAR", "A-Frame", "WebGL", "JavaScript"],
         },
@@ -776,7 +780,7 @@ export const t = {
           ],
           technologies: ["React 19", "TypeScript", "Vite", "CesiumJS", "Cesium Ion", "GeoJSON", "OpenRouteService", "jsPDF", "date-fns", "CSS", "Material Symbols"],
           projectUrl: "https://com-mapvisor-app.vercel.app",
-          repositoryUrl: "https://github.com/nikollbelen",
+          repositoryUrl: "https://github.com/nikollbelen/com_mapvisor_app",
           tags: ["React 19", "TypeScript", "CesiumJS", "GeoJSON", "jsPDF"],
         },
         {
@@ -801,7 +805,7 @@ export const t = {
           ],
           technologies: ["Vite", "TypeScript", "Tailwind CSS v4", "CesiumJS", "OpenStreetMap", "Material Symbols", "HTML", "CSS"],
           projectUrl: "https://com-entradalibre-app.vercel.app",
-          repositoryUrl: "https://github.com/nikollbelen",
+          repositoryUrl: "https://github.com/nikollbelen/com_entradalibre_app",
           tags: ["Vite", "TypeScript", "CesiumJS", "OpenStreetMap", "Tailwind CSS"],
         },
         {
@@ -826,7 +830,7 @@ export const t = {
           ],
           technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Supabase", "PostgreSQL", "Supabase Auth", "RLS", "TanStack Query", "Zustand", "Zod", "Mapbox GL", "react-map-gl", "Vitest", "Vercel"],
           projectUrl: "https://com-concurso-app.vercel.app",
-          repositoryUrl: "https://github.com/nikollbelen",
+          repositoryUrl: "https://github.com/nikollbelen/com_concurso_app",
           demoAccess: [
             { role: "Student", user: "alumno_demo", pin: "1234" },
             { role: "Teacher", user: "docente_demo", pin: "1234" },
@@ -863,7 +867,11 @@ export const t = {
             { label: "Heart Studio", url: "https://com-corazon-app.vercel.app/" },
             { label: "Electric Motor", url: "https://com-motor-electrico-app.vercel.app/" },
           ],
-          repositoryUrl: "https://github.com/nikollbelen",
+          repositoryLinks: [
+            { label: "SAG Mill Repo", url: "https://github.com/nikollbelen/com_laboratorio_app" },
+            { label: "Heart Repo", url: "https://github.com/nikollbelen/com_corazon_app" },
+            { label: "Motor Repo", url: "https://github.com/nikollbelen/com_motor_electrico_app" },
+          ],
           tags: ["Verge3D", "WebGL", "Supabase", "WebRTC", "ElevenLabs"],
         },
         {
@@ -887,7 +895,7 @@ export const t = {
           ],
           technologies: ["HTML", "CSS", "JavaScript", "A-Frame", "MindAR", "WebAR", "WebGL", "GLB", "MP4"],
           projectUrl: "https://com-edificio-ar.vercel.app/",
-          repositoryUrl: "https://github.com/nikollbelen",
+          repositoryUrl: "https://github.com/nikollbelen/com_avatar_ar",
           arNotice: true,
           tags: ["WebAR", "MindAR", "A-Frame", "WebGL", "JavaScript"],
         },
