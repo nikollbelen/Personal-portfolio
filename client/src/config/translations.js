@@ -107,7 +107,7 @@ export const t = {
       pageTitle: "Sobre Mí",
       bio1: "¡Hola! Soy Nikoll Bonilla Hancco, Desarrolladora Full Stack & Frontend Specialist con más de 3 años de experiencia construyendo plataformas web y móviles escalables.",
       bio2: "Especializada en el ecosistema de React y Next.js para la creación de interfaces interactivas de alto rendimiento, complementada con Three.js para experiencias inmersivas y simuladores 3D en tiempo real.",
-      bio3: "Cuento con experiencia integral en el ciclo de vida del software: desde la arquitectura e integración de servicios Backend con Python (FastAPI) mediante APIs RESTful, hasta el desarrollo multiplataforma con Flutter & Dart y el despliegue de entornos en contenedor con Docker y Nginx.",
+      bio3: "Cuento con experiencia integral en el ciclo de vida del software: desde la arquitectura e integración de servicios Backend con Python (FastAPI) mediante APIs RESTful, hasta el desarrollo multiplataforma con Flutter & Dart, la optimización de rendimiento y el despliegue de entornos en contenedor con Docker y Nginx.",
       quickFactsTitle: "Datos Rápidos",
       quickFacts: [
         "Basada en Perú",
@@ -146,7 +146,7 @@ export const t = {
       pageTitle: "About Me",
       bio1: "Hi! I'm Nikoll Bonilla Hancco, a Full Stack Developer & Frontend Specialist with over 3 years of experience building scalable web and mobile platforms.",
       bio2: "Specialized in the React and Next.js ecosystem for creating high-performance interactive interfaces, complemented with Three.js for immersive experiences and real-time 3D simulators.",
-      bio3: "I have comprehensive experience across the full software lifecycle: from Backend architecture and service integration with Python (FastAPI) via RESTful APIs, to cross-platform development with Flutter & Dart, and containerized deployment environments with Docker and Nginx.",
+      bio3: "I have comprehensive experience across the full software lifecycle: from Backend architecture and service integration with Python (FastAPI) via RESTful APIs, to cross-platform development with Flutter & Dart, performance optimization, and containerized deployment with Docker and Nginx.",
       quickFactsTitle: "Quick Facts",
       quickFacts: [
         "Based in Peru",
@@ -199,7 +199,9 @@ export const t = {
             "Desarrollo Fullstack & APIs REST: Desarrollo de aplicaciones y soluciones web utilizando React.js y Next.js, integradas con servicios backend en Python y FastAPI mediante APIs REST para el consumo y procesamiento eficiente de datos.",
             "Desarrollo Móvil Multiplataforma: Implementación de funcionalidades y soluciones para aplicaciones web y móviles utilizando Flutter y Dart.",
             "DevOps, Contenedores & Despliegue: Manejo de contenedores con Docker y realización de despliegues de servicios web utilizando Nginx.",
-            "Calidad de Software & Mantenimiento: Desarrollo de componentes modulares y reutilizables siguiendo buenas prácticas de programación y separación de responsabilidades; participación en análisis técnico, resolución de incidencias y pruebas de validación.",
+            "Calidad de Software & Mantenimiento: Desarrollo de componentes modulares y reutilizables siguiendo buenas prácticas de programación y separación de responsabilidades; participación en análisis técnico, resolución de incidencias, corrección de errores, pruebas de validación y trabajo colaborativo mediante control de versiones.",
+            "Desarrollo asistido por IA (Claude Code): Uso de Claude Code como herramienta de apoyo dentro del flujo de desarrollo, configurando archivos CLAUDE.md para dar contexto del proyecto (stack, estructura y convenciones de código) y obtener sugerencias alineadas con las prácticas del equipo. Revisión manual de todo el código generado y decisiones de arquitectura a cargo del desarrollador.",
+            "Planificación y Automatización: Uso de plan mode para analizar y planificar cambios antes de modificar el código, y de comandos personalizados (slash commands) para automatizar tareas repetitivas del flujo de trabajo.",
           ],
         },
         {
@@ -211,7 +213,7 @@ export const t = {
           type: "Jornada Completa",
           description: [
             "Liderazgo de Desarrollo Web & Simulaciones 3D: Dirección del equipo de frontend en el desarrollo de plataformas interactivas y simuladores 3D con React.js, coordinando flujos de trabajo eficientes mediante GitLab y garantizando la entrega oportuna de módulos complejos.",
-            "Optimizaciones UI/UX & Accesibilidad: Implementación de estándares de accesibilidad web, optimización del rendimiento frontend y gestión de documentación técnica, mejorando la usabilidad en la simulación de incidentes.",
+            "Optimizaciones UI/UX & Accesibilidad: Implementación de estándares de accesibilidad web, optimización del rendimiento frontend y gestión de documentación técnica, mejorando la usabilidad en la simulación de incidentes y evaluaciones en tiempo real.",
             "Arquitectura de Dashboards Educativos: Diseño e integración de dashboards interactivos para la visualización de datos y seguimiento del progreso de usuarios en tiempo real.",
           ],
         },
@@ -225,7 +227,7 @@ export const t = {
           description: [
             "Desarrollo de Laboratorios Virtuales 3D: Programación de simulaciones técnicas e industriales para capacitación interactiva utilizando React.js, Three.js y WebGL, construyendo interfaces responsivas e intuitivas para la exploración de modelos tridimensionales complejos.",
             "Lógica de Interacción & Multilenguaje: Implementación de la lógica de manipulación en entornos 3D (control de cámara, estados e interacción con componentes visuales) e integración de soporte multilenguaje dinámico para entornos de aprendizaje globales.",
-            "Aseguramiento de Calidad & Rendimiento Gráfico: Ejecución de pruebas funcionales, ajustes UI/UX y optimización del rendimiento de renderizado en el navegador, garantizando tasas de fotogramas estables (60 FPS).",
+            "Aseguramiento de Calidad & Rendimiento Gráfico: Ejecución de pruebas funcionales, ajustes de interfaz (UI/UX) y optimización del rendimiento de renderizado en el navegador, garantizando tasas de fotogramas estables (60 FPS) y una experiencia fluida en diversos dispositivos.",
           ],
         },
         {
@@ -237,8 +239,8 @@ export const t = {
           type: "Jornada Completa",
           description: [
             "Desarrollo de Módulos E-learning Interactivos: Creación de componentes educativos e interfaces complejas con JavaScript bajo el estándar SCORM, implementando lógica de navegación personalizada y sincronización audiovisual precisa.",
-            "Aseguramiento de Calidad & Pruebas de Usuario: Ejecución de sesiones de pruebas de usabilidad y depuración de código, asegurando estándares de accesibilidad web e interacción fluidas en múltiples dispositivos.",
-            "Optimización de Rendimiento Frontend: Estructuración modular del código de las dinámicas interactivas, reduciendo tiempos de carga y garantizando un rendimiento estable durante la reproducción multimedia en LMS.",
+            "Aseguramiento de Calidad & Pruebas de Usuario: Ejecución de sesiones de pruebas de usabilidad y depuración de código, asegurando estándares de accesibilidad web, respuesta responsiva e interacción fluida en múltiples dispositivos.",
+            "Optimización de Rendimiento Frontend: Estructuración modular del código de las dinámicas interactivas, reduciendo tiempos de carga y garantizando un rendimiento estable durante la reproducción de recursos multimedia en plataformas LMS.",
           ],
         },
         {
@@ -249,9 +251,9 @@ export const t = {
           period: "Marzo 2022 – Diciembre 2022",
           type: "Jornada Completa",
           description: [
-            "Desarrollo y Publicación E-learning (SCORM): Mantenimiento y desarrollo de módulos de capacitación web compatibles con el estándar SCORM, integrando animaciones e interacciones complejas para trazabilidad en plataformas LMS.",
-            "Gestión Multimedia & Calidad: Integración y optimización de recursos multimedia (audio, animaciones e interfaces web) construidos con HTML5, garantizando tiempos de carga eficientes.",
-            "Control de Versiones & Trabajo Multidisciplinario: Control de versiones e integración continua de contenido educativo mediante GitLab, colaborando con equipos multidisciplinarios.",
+            "Desarrollo y Publicación E-learning (SCORM): Mantenimiento y desarrollo de módulos de capacitación web compatibles con el estándar SCORM, integrando animaciones e interacciones complejas para su despliegue y correcta trazabilidad en plataformas LMS.",
+            "Gestión Multimedia & Calidad: Integración y optimización de recursos multimedia (audio, animaciones e interfaces web) construidos con HTML5, garantizando tiempos de carga eficientes e interacciones fluidas.",
+            "Control de Versiones & Trabajo Multidisciplinario: Control de versiones e integración continua de contenido educativo mediante GitLab, colaborando con equipos multidisciplinarios para asegurar altos estándares de calidad de software.",
           ],
         },
         {
@@ -282,7 +284,9 @@ export const t = {
             "Fullstack Development & REST APIs: Development of web applications and solutions using React.js and Next.js, integrated with Python and FastAPI backend services through REST APIs for efficient data consumption and processing.",
             "Cross-Platform Mobile Development: Implementation of features and solutions for web and mobile applications using Flutter and Dart.",
             "DevOps, Containers & Deployment: Container management with Docker and deployment of web services using Nginx.",
-            "Software Quality & Maintenance: Development of modular and reusable components following best programming practices and separation of concerns; participation in technical analysis, incident resolution, and validation testing.",
+            "Software Quality & Maintenance: Developed modular, reusable components following best coding practices and separation of concerns; participated in technical analysis, incident resolution, bug fixing, validation testing, and collaborative work via version control.",
+            "AI-Assisted Development (Claude Code): Used Claude Code as a supporting tool within the development workflow, configuring CLAUDE.md files to provide project context (stack, structure, and coding conventions) and get suggestions aligned with team practices. All generated code was manually reviewed, with architectural decisions owned by the developer.",
+            "Planning & Automation: Used plan mode to analyze and plan changes before modifying code, and custom slash commands to automate repetitive workflow tasks.",
           ],
         },
         {
@@ -294,21 +298,21 @@ export const t = {
           type: "Full Time",
           description: [
             "Web Development & 3D Simulation Leadership: Led the frontend team in developing interactive platforms and 3D simulators with React.js, coordinating efficient workflows via GitLab and ensuring timely delivery of complex modules.",
-            "UI/UX Optimizations & Accessibility: Implementation of web accessibility standards, frontend performance optimization, and technical documentation management, improving usability in incident simulation.",
+            "UI/UX Optimization & Accessibility: Implemented web accessibility standards, optimized frontend performance, and managed technical documentation, improving usability in real-time incident simulation and assessments.",
             "Educational Dashboard Architecture: Design and integration of interactive dashboards for data visualization and real-time user progress tracking.",
           ],
         },
         {
           id: 3,
-          title: "React Developer for Virtual Labs & 3D Simulators",
+          title: "React Developer Virtual Labs and 3D Simulators",
           company: "TECSUP",
           location: "Peru",
           period: "August 2023 – June 2024",
           type: "Full Time",
           description: [
             "3D Virtual Laboratory Development: Programming of technical and industrial simulations for interactive training using React.js, Three.js and WebGL, building responsive and intuitive interfaces for exploring complex 3D models.",
-            "Interaction Logic & Multilanguage: Implementation of 3D environment manipulation logic (camera control, states and interaction with visual components) and integration of dynamic multilanguage support for global learning environments.",
-            "Quality Assurance & Graphic Performance: Execution of functional tests, UI/UX adjustments, and browser rendering performance optimization, ensuring stable frame rates (60 FPS).",
+            "Interaction Logic & Multilanguage Support: Implemented 3D environment manipulation logic (camera control, states, and interaction with visual components) and integrated dynamic multilanguage support for global learning environments.",
+            "Quality Assurance & Graphics Performance: Executed functional testing, UI/UX adjustments, and browser rendering performance optimization, ensuring stable frame rates (60 FPS) and a smooth experience across devices.",
           ],
         },
         {
@@ -320,8 +324,8 @@ export const t = {
           type: "Full Time",
           description: [
             "Interactive E-learning Module Development: Creation of educational components and complex interfaces with JavaScript under the SCORM standard, implementing custom navigation logic and precise audiovisual synchronization.",
-            "Quality Assurance & User Testing: Execution of usability testing sessions and code debugging, ensuring web accessibility standards and smooth interaction across multiple devices.",
-            "Frontend Performance Optimization: Modular structuring of interactive dynamics code, reducing load times and ensuring stable performance during multimedia playback on LMS.",
+            "Quality Assurance & User Testing: Ran usability testing sessions and code debugging, ensuring web accessibility standards, responsiveness, and smooth interaction across multiple devices.",
+            "Frontend Performance Optimization: Structured interactive dynamics code modularly, reducing load times and ensuring stable performance during multimedia playback on LMS platforms.",
           ],
         },
         {
@@ -332,9 +336,9 @@ export const t = {
           period: "March 2022 – December 2022",
           type: "Full Time",
           description: [
-            "E-learning Development & Publishing (SCORM): Maintenance and development of SCORM-compliant web training modules, integrating complex animations and interactions for LMS platform traceability.",
-            "Multimedia Management & Quality: Integration and optimization of multimedia resources (audio, animations and web interfaces) built with HTML5, ensuring efficient load times.",
-            "Version Control & Multidisciplinary Work: Version control and continuous integration of educational content via GitLab, collaborating with multidisciplinary teams.",
+            "E-learning Development & Publishing (SCORM): Maintained and developed SCORM-compliant web training modules, integrating animations and complex interactions for deployment and traceability on LMS platforms.",
+            "Multimedia & Quality Management: Integrated and optimized multimedia resources (audio, animations, and web interfaces) built with HTML5, ensuring efficient load times and smooth interactions.",
+            "Version Control & Cross-functional Collaboration: Managed version control and continuous integration of educational content via GitLab, collaborating with multidisciplinary teams to ensure high software quality standards.",
           ],
         },
         {
@@ -481,6 +485,10 @@ export const t = {
           items: ["Linux Servidores", "Bash Terminal", "VS Code"],
         },
         {
+          category: "Idiomas",
+          items: ["Español nativo", "Inglés B2 (Intermedio alto, MCER)"],
+        },
+        {
           category: "Habilidades Blandas & Gestión",
           items: ["Liderazgo de Equipo", "Trabajo Colaborativo", "Resolución de Incidencias", "QA & Pruebas UI/UX"],
         },
@@ -518,6 +526,10 @@ export const t = {
         {
           category: "OS & Tools",
           items: ["Linux Servers", "Bash Terminal", "VS Code"],
+        },
+        {
+          category: "Languages",
+          items: ["Spanish: Native", "English: B2 (Upper Intermediate, CEFR)"],
         },
         {
           category: "Soft Skills & Management",
